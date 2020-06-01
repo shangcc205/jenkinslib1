@@ -12,7 +12,6 @@ pipeline {
             }
     }
 
-    parameters { string(name: 'DEPLOY_ENV'， defaultValue: 'staging', description: '')}  // 在jenkinsfile中自定义一个参数
 
     options {
         timestamps() //日志会显示时间
